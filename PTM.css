@@ -1,0 +1,112 @@
+body {
+	background-image: url("https://i.pinimg.com/originals/48/15/d5/4815d513fb60fc61b41fba19efb4da85.jpg");
+	width: 100%;
+	background-position: center, top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+	font-family: 'Caveat Brush';
+}
+
+#a{
+	text-indent: 40px;
+}
+
+#b{
+	text-indent: 40px;
+}
+
+#container {
+	background-color:rgba(25, 45, 100, 0.8);
+	width: 950px;
+    padding: 25px;
+	margin:auto;
+	border: solid 3px;
+	border-color: rgb(51, 51, 255);
+}
+
+a, a:active{
+color: white;
+}
+
+#header {
+display:block;
+margin:auto;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(30, 50, 120, 0.9);
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.75s;
+}
+
+#navbar a.active {
+  background-color: gray;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 950px;
+}
+
+#theme{
+float: right;
+display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar h3:hover {
+  background-color: white;
+  color: black;
+  transition: 0.75s;
+}
+fieldset {
+	border-color: rgb(51, 51, 255);
+}
+table{
+	width:80%;
+	margin: auto;
+font-size:30px;
+}
+
+th{
+padding: 100px 20px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+button{
+width:100px;
+height:40px;
+background-color:gray;
+color:white;
+float:right;
+}
+button:hover{
+background-color: white;
+  color: black;
+  transition: 0.75s;
+}
